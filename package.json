@@ -1,0 +1,30 @@
+{
+  "name": "growth-webflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwindcss -i ./src/style.css -o ./public/style.css  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LpInfotech/growth-webflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LpInfotech/growth-webflow/issues"
+  },
+  "homepage": "https://github.com/LpInfotech/growth-webflow#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "@themesberg/flowbite": "^1.2.0",
+    "aos": "^2.3.4"
+  }
+}
